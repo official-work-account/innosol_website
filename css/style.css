@@ -33,7 +33,7 @@ body.main-page {
 body.pricing {
   font-family: "montserrat", sans-serif;
   text-align: center;
-  margin-top: 35px;
+  margin: 35px;
   margin-bottom: 50px;
   background: url(https://cdn.wallpapersafari.com/15/54/xari2t.jpg) #c8d9fd;
   background-size: cover;
@@ -137,7 +137,6 @@ a:hover {
   margin: 2px;
   box-shadow: 3px 3px 5px #35353563;
   background-color: #145da0;
-  /* border: 1px solid black; */
 }
 
 .digi-ad-card h1 {
@@ -603,7 +602,9 @@ p {
 }
 
 .contentBox .content a:hover {
-  background: rgb(0, 0, 0);
+  color: black;
+  border: 1px solid black;
+  background-color: white;
 }
 
 .popup {
@@ -663,12 +664,24 @@ p {
   letter-spacing: 1px;
 }
 
-.contentBox .content a {
+.contentBox .content .close-pop-up {
   color: white;
   background-color: rgb(104, 102, 102);
   font-family: "montserrat", sans-serif;
   text-decoration: none;
   padding: 5px 10px;
+  border: 1px solid rgb(104, 102, 102);
+  border-radius: 5px;
+  font-size: small;
+}
+
+.contentBox .content .chat {
+  color: white;
+  background-color: #198754;
+  font-family: "montserrat", sans-serif;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #198754;
   border-radius: 5px;
   font-size: small;
 }
