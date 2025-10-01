@@ -30,10 +30,10 @@ body.main-page {
   background-size: cover;
 }
 
-body.pricing {
+body.pricing-page {
   font-family: "montserrat", sans-serif;
   text-align: center;
-  margin: 35px;
+  margin-top: 35px;
   margin-bottom: 50px;
   background: url(https://cdn.wallpapersafari.com/15/54/xari2t.jpg) #c8d9fd;
   background-size: cover;
